@@ -58,4 +58,4 @@ app.configure('production', function() {
 route(app);// route
 
 app.listen(config.app_port);
-console.log("Sumorio is listening on port %d in %s mode", app.address().port, app.settings.env);
+console.log("Ericblog is listening on port %d in %s mode", app.address().port, app.settings.env);
