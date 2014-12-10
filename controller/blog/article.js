@@ -112,7 +112,7 @@ exports.editArticle = function(req, res, next) {
                 if (err || !article) {
                     cb(null, {});
                 }
-                else {
+                else { 
                     author_id = article.author_id;
                     if (author_id != req.session.user.id) {
                         res.render('notify/notify', {
