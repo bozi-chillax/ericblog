@@ -4,7 +4,7 @@ exports.config = {
 	host : 'http://127.0.0.1',
 	session_secret : 'secret',
 	auth_cookie_name : 'secret',
-	app_port : 8888,
+	app_port : 9999,
 	version : '0.2.1',
 
 	// log files directory
